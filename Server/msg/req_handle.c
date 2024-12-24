@@ -102,8 +102,8 @@ int request_handle(int sesit, char *req)
         {
             if (signup_handle(username, password))
             {
-                write_to_log(sess_store[sesit].conn_sock, req, SIGNUPSUCESS);
-                return send_code(sess_store[sesit].conn_sock, SIGNUPSUCESS);
+                write_to_log(sess_store[sesit].conn_sock, req, SIGNUPSUCCESS);
+                return send_code(sess_store[sesit].conn_sock, SIGNUPSUCCESS);
             }
             write_to_log(sess_store[sesit].conn_sock, req, SIGNUPFAIL);
             return send_code(sess_store[sesit].conn_sock, SIGNUPFAIL);

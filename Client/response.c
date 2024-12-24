@@ -25,7 +25,7 @@ void res_code_resolver(int res_code)
         break;
 
     // For Sign up
-    case SIGNUPSUCESS:
+    case SIGNUPSUCCESS:
         printf("Sign up successful\n");
         break;
     case SIGNUPFAIL:
