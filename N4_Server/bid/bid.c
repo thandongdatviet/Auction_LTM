@@ -32,7 +32,7 @@ char anno_msg[BUFF_SIZE];
 void *auction_start(void *roomit)
 {
     pthread_detach(pthread_self());
-    printf("lmao5\n");
+    printf("Next item->\n");
     int it = *((int *)roomit);
     printf("Room %d: %s start auction\n", it, (room_store[it].item_queue)->name);
 

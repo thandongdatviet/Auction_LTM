@@ -3,7 +3,7 @@
 
 #include<pthread.h>
 
-#define APP_NAME "AUC(I)TION"
+#define APP_NAME "AUCTION"
 
 extern pthread_mutex_t state_mutex;
 
